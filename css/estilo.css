@@ -1,20 +1,29 @@
 .containerblablabla{
-    background-color: rgb(175, 211, 226);
+    margin-top: 2%;
+    background-color: rgb(239, 239, 239);
+}
+
+h1{
+    font-size: 2.5em;
+    text-align: center;
 }
 
 main{
-    background-color: rgb(175, 211, 226);
+    background-color: rgb(239, 239, 239);
 }
 
 footer{
-    background-color: rgb(20, 108, 148);
+    background-color: rgb(175, 211, 226);
 }
 
 
 
 
 
-/*rgb(246, 241, 241)
-rgb(175, 211, 226)
-rgb(25, 167, 206)
-rgb(20, 108, 148)*/
+.l{
+   color: rgb(246, 241, 241)
+    rgb(175, 211, 226)
+    rgb(25, 167, 206)
+    rgb(20, 108, 148)
+    rgb(239, 239, 239);
+}
