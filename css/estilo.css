@@ -17,7 +17,9 @@ footer{
     background-color: rgb(175, 211, 226);
 }
 
-
+.accordionFlushExample{
+    padding-top: 10%;
+}
 
 /*
    color: rgb(246, 241, 241)
