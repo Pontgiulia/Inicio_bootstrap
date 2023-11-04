@@ -17,6 +17,11 @@ footer{
     background-color: rgb(175, 211, 226);
 }
 
+img-fluid{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
 /*
    color: rgb(246, 241, 241)
     rgb(175, 211, 226)
