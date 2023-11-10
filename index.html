@@ -13,42 +13,39 @@
     <header>
 
       <!--Barra de navegacao-->
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
-              <!-- <a class="navbar-brand" href="#">Navbarra</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button> -->
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Início</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Mangás</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Temporadas
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Primeira temporada</a></li>
-                      <li><a class="dropdown-item" href="#">Segunda temporada</a></li>
-                      <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="#">Jujutsu Kaisen 0</a></li>
-                    </ul>
-                  </li>
-                  <!-- <li class="nav-item">
-                    <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-                  </li> -->
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">Início</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="mang.html">Mangá</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Temporadas
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="temp.html">Temporada 1</a></li>
+                  <li><a class="dropdown-item" href="temp.html">Temporada 2</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="temp.html">Jujutsu Kaisen 0</a></li>
                 </ul>
-                <!-- <form class="d-flex" role="search">
-                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                  <button class="btn btn-outline-success" type="submit">Search</button>
-                </form> -->
-              </div>
-            </div>
-          </nav>
+              </li>
+              <!--<li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>-->
+          </div>
+        </div>
+      </nav>
     </header>
     <!-- <h1>Hello, world!</h1> -->
 
@@ -97,83 +94,87 @@
     <!--info e galeria de imagens-->
     <main class="container-fluid">
       <!--Info-->
-      <div class="row">
-        <div class="col">
-          <section class="containerblablabla">
-            <h1>Sobre</h1>
-            <p>Jujutsu Kaisen é um mangá japonês escrito e ilustrado por Gege Akutami, serializado na Weekly Shōnen Jump desde 5 de março de 2018. Os capítulos individuais são compilados em volume tankōbon, e publicados pela Shueisha desde julho de 2018. A série é licenciada e publicada no Brasil pela editora Panini.<br /> A história de Jujutsu Kaisen conta a saga de Itadori Yuji, um jovem estudante que ganha poderes sobrenaturais após ingerir o dedo de sukuna, o demônio rei das maldições. A maioria dos fãs de Jujutsu Kaisen já está acostumada a ouvir sobre o que a saga se trata.</p>
-          </section>
+      <section>
+        <div class="row">
+          <div class="col">
+            <section class="containerblablabla">
+              <h1>Sobre</h1>
+              <p>Jujutsu Kaisen é um mangá japonês escrito e ilustrado por Gege Akutami, serializado na Weekly Shōnen Jump desde 5 de março de 2018. Os capítulos individuais são compilados em volume tankōbon, e publicados pela Shueisha desde julho de 2018. A série é licenciada e publicada no Brasil pela editora Panini.<br /> A história de Jujutsu Kaisen conta a saga de Itadori Yuji, um jovem estudante que ganha poderes sobrenaturais após ingerir o dedo de sukuna, o demônio rei das maldições. A maioria dos fãs de Jujutsu Kaisen já está acostumada a ouvir sobre o que a saga se trata.</p>
+            </section>
+          </div>
+          <!--infos do autor, energia e maldicao-->
+          <div class="col">
+            <section class="containerblablabla">
+              <!--Acordion de informacoes-->
+              <div class="accordion accordion-flush" id="accordionFlushExample">
+                <!--autor-->
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                      Autor
+                    </button>
+                  </h2>
+                  <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Gege Akutami nasceu na província de Iwate em 26 de fevereiro de 1992. Akutami mudou-se para Sendai, na província de Miyagi, na quinta série. Akutami começou a desenhar mangá imitando um amigo, o que os inspirou a se tornarem artistas profissionais de mangá. Akutami nomeou Tite Kubo como uma influência em seu trabalho depois de ler Bleach na quarta série, além de Hunter x Hunter e Neon Genesis Evangelion entre outras obras. Em 2014, Gege Akutami começou a trabalhar como assistente de Yasuhiro Kanō em Kiss x Death.</div>
+                  </div>
+                </div>
+                <!--maldicoes-->
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                      Maldições
+                    </button>
+                  </h2>
+                  <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Espíritos Amaldiçoados são a forma “consciente” que a energia amaldiçoada de algum lugar toma para si depois de um certo período. Essa energia emana das emoções negativas dos seres humanos – ou seja, é algo natural – e pode ser manipulada por feiticeiros jujutsu ou se transformar nesses espíritos.</div>
+                  </div>
+                </div>
+                <!--energia-->
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                      Energia amaldiçoada
+                    </button>
+                  </h2>
+                  <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Juryoku「呪じゅ力りょく, Energia Amaldiçoada」 A energia amaldiçoada nasce de emoções negativas, como tristeza e raiva. Esses sentimentos negativos são comuns na sociedade humana, então quase todos possuem energia amaldiçoada. Se essa quantidade for superior a um determinado grau, concede à pessoa a capacidade de ver maldições, o que é muito raro entre a raça humana.</div>
+                  </div>
+                </div>
+              </div>
+            </section> 
+          </div>
         </div>
-        <!--infos do autor, energia e maldicao-->
-        <div class="col">
-          <section class="containerblablabla">
-            <!--Acordion de informacoes-->
-            <div class="accordion accordion-flush" id="accordionFlushExample">
-              <!--autor-->
-              <div class="accordion-item">
-                <h2 class="accordion-header">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                    Autor
-                  </button>
-                </h2>
-                <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                  <div class="accordion-body">Gege Akutami nasceu na província de Iwate em 26 de fevereiro de 1992. Akutami mudou-se para Sendai, na província de Miyagi, na quinta série. Akutami começou a desenhar mangá imitando um amigo, o que os inspirou a se tornarem artistas profissionais de mangá. Akutami nomeou Tite Kubo como uma influência em seu trabalho depois de ler Bleach na quarta série, além de Hunter x Hunter e Neon Genesis Evangelion entre outras obras. Em 2014, Gege Akutami começou a trabalhar como assistente de Yasuhiro Kanō em Kiss x Death.</div>
-                </div>
-              </div>
-              <!--maldicoes-->
-              <div class="accordion-item">
-                <h2 class="accordion-header">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                    Maldições
-                  </button>
-                </h2>
-                <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                  <div class="accordion-body">Espíritos Amaldiçoados são a forma “consciente” que a energia amaldiçoada de algum lugar toma para si depois de um certo período. Essa energia emana das emoções negativas dos seres humanos – ou seja, é algo natural – e pode ser manipulada por feiticeiros jujutsu ou se transformar nesses espíritos.</div>
-                </div>
-              </div>
-              <!--energia-->
-              <div class="accordion-item">
-                <h2 class="accordion-header">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                    Energia amaldiçoada
-                  </button>
-                </h2>
-                <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                  <div class="accordion-body">Juryoku「呪じゅ力りょく, Energia Amaldiçoada」 A energia amaldiçoada nasce de emoções negativas, como tristeza e raiva. Esses sentimentos negativos são comuns na sociedade humana, então quase todos possuem energia amaldiçoada. Se essa quantidade for superior a um determinado grau, concede à pessoa a capacidade de ver maldições, o que é muito raro entre a raça humana.</div>
-                </div>
-              </div>
-            </div>
-          </section> 
-        </div>
-      </div>
+      </section>
       <!--Galeria de imagens-->
-      <div class="container text-center">
-        <h1>Personagens Principais</h1>
-        <div class="row align-items-start">
-          <div class="col">
-            <img src="img/gojo.jpg" class="gale" alt="...">
-          </div>
-          <div class="col">
-            <img src="img/geto.jpg" class="gale" alt="...">
-          </div>
-          <div class="col">
-            <img src="img/yuta.jpg" class="gale" alt="...">
-          </div>
-        </div>
-      </div>
-      <div class="container text-center">
-        <div class="row align-items-center">
-          <div class="col">
-            <img src="img/itadori.jpg" class="gale" alt="...">
-          </div>
-          <div class="col">
-            <img src="img/nobara.jpg" class="gale" alt="...">
-          </div>
-          <div class="col">
-            <img src="img/megumi.jpg" class="gale" alt="...">
+      <section>
+        <div class="container text-center">
+          <h1>Personagens Principais</h1>
+          <div class="row align-items-start">
+            <div class="col">
+              <img src="img/gojo.jpg" class="gale" alt="...">
+            </div>
+            <div class="col">
+              <img src="img/geto.jpg" class="gale" alt="...">
+            </div>
+            <div class="col">
+              <img src="img/yuta.jpg" class="gale" alt="...">
+            </div>
           </div>
         </div>
-      </div>
+        <div class="container text-center">
+          <div class="row align-items-center">
+            <div class="col">
+              <img src="img/itadori.jpg" class="gale" alt="...">
+            </div>
+            <div class="col">
+              <img src="img/nobara.jpg" class="gale" alt="...">
+            </div>
+            <div class="col">
+              <img src="img/megumi.jpg" class="gale" alt="...">
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
     <footer>Desenvolvido por Giulia</footer>
     <script src="js/bootstrap.bundle.js"></script>
